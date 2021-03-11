@@ -1,0 +1,18 @@
+{
+  "itemId" : "_AunMcFzbEeil1bvyWQkg-w",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_UmAHsH-UEeSh_srZ_0iReQ",
+    "parameterList" : [ {
+      "id" : "_v1luwV1pEeqmrs8oD2iMBw",
+      "name" : "connection_dropbox_access_token"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_UmAHsH-UEeSh_srZ_0iReQ",
+    "parameterList" : [ {
+      "id" : "_v1luwV1pEeqmrs8oD2iMBw",
+      "name" : "connection_dropbox_access_token"
+    } ]
+  } ]
+}

@@ -1,0 +1,17 @@
+{
+  "itemId" : "_CY0soKSGEeiVcfFy_i6rZA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_DuReYJZpEei598hG63XJIg",
+    "parameterList" : [ {
+      "id" : "_kGvXY6uaEeib4IEv8tTS5g",
+      "name" : "Connection_password"
+    }, {
+      "id" : "_kGvXYauaEeib4IEv8tTS5g",
+      "name" : "Connection_username"
+    }, {
+      "id" : "_kGvXZKuaEeib4IEv8tTS5g",
+      "name" : "TDP_Connection_url"
+    } ]
+  } ]
+}

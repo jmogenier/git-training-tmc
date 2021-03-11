@@ -10,6 +10,11 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/process/Cloud_Administration_course/filtered_logs_customers_per_movie_0.1</module>
+    <module>jobs/process/Cloud_Administration_course/video_viewers_watch_results_log_filter_0.1</module>
+    <module>jobs/process/Cloud_Essentials_Course/TDP/executedatapreparation_0.1</module>
+    <module>jobs/process/Cloud_Essentials_Course/TDS/deduplicatecustomers_0.1</module>
+    <module>jobs/process/Cloud_Essentials_Course/TDS/deletetasksforcampaign_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
