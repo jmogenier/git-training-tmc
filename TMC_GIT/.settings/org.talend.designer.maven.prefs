@@ -1,0 +1,4 @@
+EXCLUDE_DELETED_ITEMS=true
+PROJECT_GROUPID=org.example.tmc_git
+PROJECT_VERSION=7.3.1
+eclipse.preferences.version=1
