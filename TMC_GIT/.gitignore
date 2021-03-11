@@ -1,0 +1,11 @@
+/temp/
+*.log
+poms/**/.settings/
+poms/**/target/
+poms/**/tests/
+poms/**/src/
+poms/**/*.classpath
+poms/**/*.project
+poms/**/*.bak
+poms/**/*.log
+.settings/com.oaklandsw.base.projectProps
