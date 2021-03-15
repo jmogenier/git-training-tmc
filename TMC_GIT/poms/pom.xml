@@ -9,6 +9,7 @@
   <name>TMC_GIT Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
+    <module>code/beans</module>
     <module>code/routines</module>
     <module>jobs/process/Cloud_Administration_course/Git_using/job1_0.1</module>
     <module>jobs/process/Cloud_Administration_course/Git_using/job2_0.1</module>
