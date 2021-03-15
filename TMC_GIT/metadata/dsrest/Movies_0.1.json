@@ -1,0 +1,73 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "Aucune description",
+    "version" : "1.0.0",
+    "title" : "Movies"
+  },
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/movies" : {
+      "get" : {
+        "summary" : "Available_movies",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
+      "post" : {
+        "summary" : "Add_movie",
+        "parameters" : [ {
+          "name" : "title",
+          "in" : "query",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "genre",
+          "in" : "query",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "year",
+          "in" : "query",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
+      "put" : {
+        "summary" : "rent_movie",
+        "parameters" : [ {
+          "name" : "title",
+          "in" : "query",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "rent",
+          "in" : "query",
+          "required" : true,
+          "type" : "boolean",
+          "description" : "true if rent, false to give a movie back"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
+      "parameters" : [ ]
+    }
+  },
+  "definitions" : {
+    "movie" : {
+      "type" : "string"
+    }
+  }
+}

@@ -1,5 +1,24 @@
 [ {
   "baseItem" : {
+    "id" : "_9PYYwHikEeqZN5fwy26K9Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_1drUAHjFEeqZN5fwy26K9Q",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_so8H8HjFEeqZN5fwy26K9Q",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_AunMcFzbEeil1bvyWQkg-w",
     "version" : "0.1",
     "type" : "job"
