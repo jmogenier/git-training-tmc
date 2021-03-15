@@ -1,5 +1,10 @@
 {
   "migrationTask" : [ {
+    "id" : "org.talend.camel.designer.migration.UpdateBeansDefaultLibrariesMigrationTask.7.3.1",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.datacleansing.core.migration.UpdateTMatchGroupOutPutSchemaTask",
     "breaks" : "6.3.1",
     "version" : "6.3.1",
@@ -1253,11 +1258,6 @@
     "version" : "5.1.2",
     "status" : "noimpact"
   }, {
-    "id" : "org.talend.repository.model.migration.FixProjectResourceLink",
-    "breaks" : "5.1.1",
-    "version" : "5.1.2",
-    "status" : "noimpact"
-  }, {
     "id" : "org.talend.repository.model.migration.FixUnevenItemContextParametersMigrationTask",
     "breaks" : "6.1.0",
     "version" : "6.4.0",
@@ -1266,11 +1266,6 @@
     "id" : "org.talend.repository.model.migration.FixWrongDbTypesMigrationTask",
     "breaks" : "5.1.9",
     "version" : "5.1.2",
-    "status" : "noimpact"
-  }, {
-    "id" : "org.talend.repository.model.migration.GenerateJobPomMigrationTask",
-    "breaks" : "7.0.1",
-    "version" : "7.0.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.GoogleStorageSetDefaultAuthTypeMigrationTask",
