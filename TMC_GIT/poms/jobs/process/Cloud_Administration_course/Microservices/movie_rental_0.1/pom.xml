@@ -11,46 +11,35 @@
   <groupId>org.example.tmc_git.service</groupId>
   <artifactId>movie_rental</artifactId>
   <version>0.1.0</version>
-  <packaging>bundle</packaging>
-  <name>TMC_GIT movie_rental-${project.version} (0.1,Job Designs) Bundle</name>
+  <name>TMC_GIT movie_rental-${project.version} (0.1,Job Designs) Microservice Jar</name>
   <properties>
-    <item.name>@ItemName@</item.name>
-    <bundle.config.export.service>@BundleConfigExportService@</bundle.config.export.service>
-    <bundle.config.bundle.classpath>@BundleConfigBundleClasspath@</bundle.config.bundle.classpath>
-    <talend.job.name>movie_rental</talend.job.name>
-    <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
-    <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <docker.skip>true</docker.skip>
-    <talend.project.name>TMC_GIT</talend.project.name>
-    <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
-    <bundle.config.export.package>@BundleConfigExportPackage@</bundle.config.export.package>
-    <talend.project.id>0</talend.project.id>
-    <provided.lib.path>${current.bundle.resources.dir}/provided-lib</provided.lib.path>
-    <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
-    <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
-    <talend.product.version>7.3.1.20201125_1449-patch</talend.product.version>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.routine.groupid>org.example.tmc_git.code</talend.routine.groupid>
-    <talend.job.folder>cloud_administration_course/microservices/</talend.job.folder>
-    <bundle.config.import.package>@BundleConfigImportPackage@</bundle.config.import.package>
-    <talend.job.id>_9PYYwHikEeqZN5fwy26K9Q</talend.job.id>
-    <talend.project.name.lowercase>tmc_git</talend.project.name.lowercase>
-    <talend.job.finalName>${talend.job.name}-bundle-${project.version}</talend.job.finalName>
-    <lib.path>${resources.path}/lib</lib.path>
-    <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
+    <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
+    <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
+    <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
     <talend.job.version>0.1</talend.job.version>
-    <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
+    <talend.project.name.lowercase>tmc_git</talend.project.name.lowercase>
     <talend.job.path>tmc_git</talend.job.path>
-    <talend.job.context>Default</talend.job.context>
-    <talend.job.stat>true</talend.job.stat>
+    <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
+    <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
+    <talend.project.name>TMC_GIT</talend.project.name>
+    <talend.product.version>7.3.1.20201125_1449-patch</talend.product.version>
+    <talend.job.finalName>movie_rental_0_1</talend.job.finalName>
     <talend.pigudf.groupid>org.example.tmc_git.pigudf</talend.pigudf.groupid>
-    <talend.job.framework></talend.job.framework>
+    <talend.routine.groupid>org.example.tmc_git.code</talend.routine.groupid>
+    <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
     <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
+    <talend.job.stat>true</talend.job.stat>
+    <talend.job.context>Default</talend.job.context>
+    <talend.job.date>${maven.build.timestamp}</talend.job.date>
+    <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
+    <talend.job.name>movie_rental</talend.job.name>
+    <talend.job.id>_9PYYwHikEeqZN5fwy26K9Q</talend.job.id>
+    <talend.project.id>0</talend.project.id>
+    <talend.job.folder>cloud_administration_course/microservices/</talend.job.folder>
+    <talend.job.framework></talend.job.framework>
+    <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <talend.job.type>Standard</talend.job.type>
-    <item.project.name>@ItemProjectName@</item.project.name>
-    <resources.path>${basedir}/src/main/resources</resources.path>
   </properties>
   <dependencies>
     <dependency>
@@ -296,11 +285,6 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>jettison-1.4.0</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>jetty-all-9.4.18.v20190429-uber</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
@@ -578,58 +562,139 @@
       <artifactId>routines</artifactId>
       <version>7.3.1</version>
     </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <version>2.1.2.RELEASE</version>
+      <exclusions>
+        <exclusion>
+          <artifactId>jackson-databind</artifactId>
+          <groupId>com.fasterxml.jackson.core</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>jackson-datatype-jdk8</artifactId>
+          <groupId>com.fasterxml.jackson.datatype</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>jackson-datatype-jsr310</artifactId>
+          <groupId>com.fasterxml.jackson.datatype</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jdk8</artifactId>
+      <version>2.10.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jsr310</artifactId>
+      <version>2.10.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-core</artifactId>
+      <version>9.0.30</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-el</artifactId>
+      <version>9.0.30</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-websocket</artifactId>
+      <version>9.0.30</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jolokia</groupId>
+      <artifactId>jolokia-core</artifactId>
+      <version>1.6.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.cxf</groupId>
+      <artifactId>cxf-rt-management</artifactId>
+      <version>3.3.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.woodstox</groupId>
+      <artifactId>stax2-api</artifactId>
+      <version>3.1.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-util</artifactId>
+      <version>9.4.26.v20200117</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-server</artifactId>
+      <version>9.4.26.v20200117</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.cxf</groupId>
+      <artifactId>cxf-rt-features-metrics</artifactId>
+      <version>3.3.4</version>
+    </dependency>
+    <dependency>
+      <groupId>io.dropwizard.metrics</groupId>
+      <artifactId>metrics-core</artifactId>
+      <version>3.2.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
+      <version>2.1.2.RELEASE</version>
+      <exclusions>
+        <exclusion>
+          <artifactId>spring-boot-starter-logging</artifactId>
+          <groupId>org.springframework.boot</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-actuator</artifactId>
+      <version>2.1.2.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-log4j2</artifactId>
+      <version>2.1.2.RELEASE</version>
+    </dependency>
   </dependencies>
   <build>
+    <finalName>${talend.job.finalName}</finalName>
     <plugins>
       <plugin>
-        <groupId>org.apache.felix</groupId>
-        <artifactId>maven-bundle-plugin</artifactId>
-        <version>2.5.3</version>
-        <extensions>true</extensions>
-        <dependencies>
-          <dependency>
-            <groupId>org.codehaus.plexus</groupId>
-            <artifactId>plexus-utils</artifactId>
-            <version>3.0.24</version>
-          </dependency>
-        </dependencies>
-        <configuration>
-          <archive>
-            <addMavenDescriptor>false</addMavenDescriptor>
-          </archive>
-          <instructions>
-            <Bundle-SymbolicName>${project.groupId}.${project.artifactId}</Bundle-SymbolicName>
-            <Bundle-Name>${talend.job.name}</Bundle-Name>
-            <Bundle-Version>${project.version}</Bundle-Version>
-            <Export-Package>${bundle.config.export.package}</Export-Package>
-            <Export-Service>${bundle.config.export.service}</Export-Service>
-            <Import-Package>${bundle.config.import.package}, *;resolution:=optional</Import-Package>
-            <Bundle-ClassPath>., {maven-dependencies}</Bundle-ClassPath>
-          </instructions>
-          <finalName>${talend.job.finalName}</finalName>
-        </configuration>
-      </plugin>
-      <plugin>
-        <artifactId>maven-assembly-plugin</artifactId>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>2.1.2.RELEASE</version>
         <executions>
           <execution>
-            <phase>package</phase>
             <goals>
-              <goal>single</goal>
+              <goal>repackage</goal>
             </goals>
-            <configuration>
-              <descriptors>
-                <descriptor>${basedir}/src/main/assemblies/assembly.xml</descriptor>
-              </descriptors>
-              <tarLongFileMode>gnu</tarLongFileMode>
-              <appendAssemblyId>false</appendAssemblyId>
-              <finalName>${talend.job.name}-bundle-${project.version}</finalName>
-              <archive>
-                <manifestFile>${current.bundle.resources.dir}/META-INF/MANIFEST.MF</manifestFile>
-              </archive>
-            </configuration>
           </execution>
         </executions>
+        <configuration>
+          <mainClass>tmc_git.movie_rental_0_1.App</mainClass>
+          <excludes>
+            <exclude>
+              <groupId>ch.qos.logback</groupId>
+              <artifactId>logback-classic</artifactId>
+            </exclude>
+            <exclude>
+              <groupId>ch.qos.logback</groupId>
+              <artifactId>logback-core</artifactId>
+            </exclude>
+          </excludes>
+        </configuration>
       </plugin>
     </plugins>
   </build>
@@ -655,11 +720,30 @@
                   </descriptors>
                   <tarLongFileMode>gnu</tarLongFileMode>
                   <appendAssemblyId>false</appendAssemblyId>
-                  <finalName>${talend.job.name}-bundle-${project.version}</finalName>
-                  <archive>
-                    <manifestFile>${current.bundle.resources.dir}/META-INF/MANIFEST.MF</manifestFile>
-                  </archive>
+                  <finalName>${talend.job.finalName}</finalName>
                 </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>signature</id>
+      <activation />
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.talend.ci</groupId>
+            <artifactId>signer-maven-plugin</artifactId>
+            <version>${signer.version}</version>
+            <executions>
+              <execution>
+                <id>sign</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
               </execution>
             </executions>
           </plugin>
@@ -692,9 +776,15 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <templates.dir>${basedir}/src/main/templates/</templates.dir>
-        <poms.dir>${basedir}</poms.dir>
         <assemblies.dir>${basedir}/src/main/assemblies/</assemblies.dir>
+        <pigudfpom.dir>${parentpom.dir}code/pigudf/</pigudfpom.dir>
+        <routinescode.dir>${parentpom.dir}code/routines/src/main/</routinescode.dir>
+        <parentpom.dir>${project.parent.relativePath}</parentpom.dir>
+        <templates.dir>${basedir}/src/main/templates/</templates.dir>
+        <routinespom.dir>${parentpom.dir}code/routines/</routinespom.dir>
+        <pigudfcode.dir>${parentpom.dir}code/pigudf/src/main/</pigudfcode.dir>
+        <joblet.dir>${parentpom.dir}jobs/</joblet.dir>
+        <poms.dir>${basedir}</poms.dir>
       </properties>
     </profile>
     <profile>
@@ -806,37 +896,62 @@
     <profile>
       <id>include-microservice-running-configs</id>
       <properties>
-        <microservice.running.configs.dir>${current.resources.dir}/</microservice.running.configs.dir>
+        <microservice.running.configs.dir>${current.int-resources.dir}/</microservice.running.configs.dir>
       </properties>
     </profile>
     <profile>
-      <id>deploy-nexus</id>
+      <id>include-microservice-em-dependencies</id>
       <activation>
         <property>
-          <name>altDeploymentRepository</name>
+          <name>studio.prometheus.metrics</name>
+          <value>true</value>
         </property>
       </activation>
       <build>
         <plugins>
           <plugin>
-            <groupId>org.talend.ci</groupId>
-            <artifactId>osgihelper-maven-plugin</artifactId>
-            <version>7.3.1</version>
+            <artifactId>maven-assembly-plugin</artifactId>
             <executions>
               <execution>
-                <id>osgi-helper</id>
-                <phase>generate-sources</phase>
+                <phase>package</phase>
                 <goals>
-                  <goal>generate</goal>
+                  <goal>single</goal>
                 </goals>
                 <configuration>
-                  <featuresFile>${current.bundle.resources.dir}/feature.xml</featuresFile>
+                  <descriptors>
+                    <descriptor>${basedir}/src/main/assemblies/assembly.xml</descriptor>
+                  </descriptors>
+                  <tarLongFileMode>gnu</tarLongFileMode>
+                  <appendAssemblyId>false</appendAssemblyId>
+                  <finalName>${talend.job.finalName}</finalName>
                 </configuration>
               </execution>
             </executions>
           </plugin>
         </plugins>
       </build>
+      <properties>
+        <microservice.configs.dir>${current.resources.dir}/</microservice.configs.dir>
+        <contexts.running.dir>${current.resources.dir}/</contexts.running.dir>
+        <microservice.running.configs.dir>${current.int-resources.dir}/</microservice.running.configs.dir>
+      </properties>
+      <dependencies>
+        <dependency>
+          <groupId>io.micrometer</groupId>
+          <artifactId>micrometer-registry-prometheus</artifactId>
+          <version>1.1.1</version>
+        </dependency>
+        <dependency>
+          <groupId>io.prometheus.jmx</groupId>
+          <artifactId>collector</artifactId>
+          <version>0.13.0</version>
+        </dependency>
+        <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-security</artifactId>
+          <version>2.1.2.RELEASE</version>
+        </dependency>
+      </dependencies>
     </profile>
   </profiles>
 </project>
