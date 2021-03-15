@@ -36,7 +36,7 @@
     <talend.job.name>Google_Drive_Access</talend.job.name>
     <talend.job.id>_toypUIMMEeuliOYyXaGWVA</talend.job.id>
     <talend.project.id>0</talend.project.id>
-    <talend.job.folder>cloud_administration_course/tests_google_drive/</talend.job.folder>
+    <talend.job.folder>cloud_administration_course/tests_google_drive_not_ok/</talend.job.folder>
     <talend.job.framework></talend.job.framework>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <talend.job.type>Standard</talend.job.type>
