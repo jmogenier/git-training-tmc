@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_7iZvoIJrEeu08a5fJmJAtA" label="TMC_GIT" description="Studio project linked with GIT - Mars 2021" language="java" technicalLabel="TMC_GIT" author="_7iZvoYJrEeu08a5fJmJAtA" productVersion="Talend Cloud Data Management Platform-7.3.1.20201125_1449-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/jnm74/git-training-tmc&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_7iZvoIJrEeu08a5fJmJAtA" label="TMC_GIT" description="Studio project linked with GIT - Mars 2021" language="java" technicalLabel="TMC_GIT" author="_7iZvoYJrEeu08a5fJmJAtA" productVersion="Talend Cloud API Services Platform-7.3.1.20201125_1449-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/jnm74/git-training-tmc&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <migrationTask xmi:id="_7lOaIIJrEeu08a5fJmJAtA" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_7iZvoYJrEeu08a5fJmJAtA" login="joe.c.loudtalend1@trial33142.us.talend.com" firstName="Joe" lastName="DALTON" type="DQ"/>
+  <TalendProperties:User xmi:id="_v3qzUIWLEeufncZmIu9hiA" login="joe.cloudtalend2@trial33262.us.talend.com" firstName="Joe" lastName="DALTON2_API" type="DQ"/>
+  <TalendProperties:User xmi:id="_v3qzUYWLEeufncZmIu9hiA" login="joe.cloudtalend2@trial33262.us.talend.com" firstName="Joe" lastName="DALTON2_API" type="DQ"/>
 </xmi:XMI>
