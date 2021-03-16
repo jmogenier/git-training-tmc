@@ -14,6 +14,7 @@
     <module>jobs/process/Cloud_Administration_course/Git_using/job1_0.1</module>
     <module>jobs/process/Cloud_Administration_course/Git_using/job2_0.1</module>
     <module>jobs/process/Cloud_Administration_course/Microservices/movie_rental_0.1</module>
+    <module>jobs/process/Cloud_Administration_course/TMC_API/create_remote_engine_0.1</module>
     <module>jobs/process/Cloud_Administration_course/TMC_API/getids_0.1</module>
     <module>jobs/process/Cloud_Administration_course/TMC_API/mainjob_0.1</module>
     <module>jobs/process/Cloud_Administration_course/Tests_Google_Drive_not_OK/google_drive_access_0.1</module>
