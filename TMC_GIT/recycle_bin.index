@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin"/>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedItems id="_RC-Y8KZhEeqzi732GM4_AQ" path="Cloud_Administration_course/TMC_API" type="PROCESS"/>
+</recyclebin:RecycleBin>
