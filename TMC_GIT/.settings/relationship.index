@@ -49,13 +49,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_RC-Y8KZhEeqzi732GM4_AQ",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ ]
-}, {
-  "baseItem" : {
     "id" : "_Zr8ogFkREei8HMEx_QibGA",
     "version" : "0.1",
     "type" : "job"
