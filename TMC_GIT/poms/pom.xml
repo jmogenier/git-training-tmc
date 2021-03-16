@@ -14,9 +14,9 @@
     <module>jobs/process/Cloud_Administration_course/Git_using/job1_0.1</module>
     <module>jobs/process/Cloud_Administration_course/Git_using/job2_0.1</module>
     <module>jobs/process/Cloud_Administration_course/Microservices/movie_rental_0.1</module>
+    <module>jobs/process/Cloud_Administration_course/TMC_API/configfirsttask_0.1</module>
+    <module>jobs/process/Cloud_Administration_course/TMC_API/configfirsttask_1.0</module>
     <module>jobs/process/Cloud_Administration_course/TMC_API/configsecondtask_1.0</module>
-    <module>jobs/process/Cloud_Administration_course/TMC_API/configtask_0.1</module>
-    <module>jobs/process/Cloud_Administration_course/TMC_API/configtask_1.0</module>
     <module>jobs/process/Cloud_Administration_course/TMC_API/create_remote_engine_0.1</module>
     <module>jobs/process/Cloud_Administration_course/TMC_API/create_remote_engine_1.0</module>
     <module>jobs/process/Cloud_Administration_course/TMC_API/firsttask_0.1</module>
