@@ -21,6 +21,7 @@
     <module>jobs/process/Cloud_Administration_course/TMC_API/create_remote_engine_1.0</module>
     <module>jobs/process/Cloud_Administration_course/TMC_API/firsttask_0.1</module>
     <module>jobs/process/Cloud_Administration_course/TMC_API/getids_0.1</module>
+    <module>jobs/process/Cloud_Administration_course/TMC_API/mainjob_0.1</module>
     <module>jobs/process/Cloud_Administration_course/TMC_API/secondtask_0.1</module>
     <module>jobs/process/Cloud_Administration_course/Tests_Google_Drive_not_OK/google_drive_access_0.1</module>
     <module>jobs/process/Cloud_Administration_course/Tests_on_remote_engine/remoteengines_video_viewers_watch_0.1</module>
