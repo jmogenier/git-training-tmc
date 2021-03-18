@@ -16,8 +16,6 @@
     <module>jobs/process/Cloud_Administration_course/JNM_tests_Google_Drive_not_OK/google_drive_access_0.1</module>
     <module>jobs/process/Cloud_Administration_course/Microservices/movie_rental_0.1</module>
     <module>jobs/process/Cloud_Administration_course/Ressource_and_connections_variables_usage_tests/listclients_0.1</module>
-    <module>jobs/process/Cloud_Administration_course/Ressource_and_connections_variables_usage_tests/listclients_variables_en_dur_0.1</module>
-    <module>jobs/process/Cloud_Administration_course/Ressource_and_connections_variables_usage_tests/listclients_variables_en_dur_1.0</module>
     <module>jobs/process/Cloud_Administration_course/Ressource_and_connections_variables_usage_tests/listfilms_0.1</module>
     <module>jobs/process/Cloud_Administration_course/TMC_API/configfirsttask_0.1</module>
     <module>jobs/process/Cloud_Administration_course/TMC_API/configfirsttask_1.0</module>
