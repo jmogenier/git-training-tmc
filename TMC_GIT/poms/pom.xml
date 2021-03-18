@@ -13,6 +13,7 @@
     <module>code/routines</module>
     <module>jobs/process/Cloud_Administration_course/Git_using/job1_0.1</module>
     <module>jobs/process/Cloud_Administration_course/Git_using/job2_0.1</module>
+    <module>jobs/process/Cloud_Administration_course/JNM_tests_Google_Drive_not_OK/google_drive_access_0.1</module>
     <module>jobs/process/Cloud_Administration_course/Microservices/movie_rental_0.1</module>
     <module>jobs/process/Cloud_Administration_course/TMC_API/configfirsttask_0.1</module>
     <module>jobs/process/Cloud_Administration_course/TMC_API/configfirsttask_1.0</module>
@@ -24,7 +25,6 @@
     <module>jobs/process/Cloud_Administration_course/TMC_API/firsttask_0.1</module>
     <module>jobs/process/Cloud_Administration_course/TMC_API/getids_0.1</module>
     <module>jobs/process/Cloud_Administration_course/TMC_API/secondtask_0.1</module>
-    <module>jobs/process/Cloud_Administration_course/Tests_Google_Drive_not_OK/google_drive_access_0.1</module>
     <module>jobs/process/Cloud_Administration_course/Tests_on_remote_engine/remoteengines_video_viewers_watch_0.1</module>
     <module>jobs/process/Cloud_Administration_course/filtered_logs_customers_per_movie_0.1</module>
     <module>jobs/process/Cloud_Administration_course/video_viewers_watch_results_log_filter_0.1</module>
