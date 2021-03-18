@@ -30,13 +30,13 @@
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
     <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
     <talend.job.stat>true</talend.job.stat>
-    <talend.job.context>Default</talend.job.context>
+    <talend.job.context>DEV</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
     <talend.job.name>ListClients</talend.job.name>
     <talend.job.id>_xQj54IfxEeudWbemh4bIXw</talend.job.id>
     <talend.project.id>0</talend.project.id>
-    <talend.job.folder>cloud_administration_course/ressource_usage_tests/</talend.job.folder>
+    <talend.job.folder>cloud_administration_course/ressource_and_connections_variables_usage_tests/</talend.job.folder>
     <talend.job.framework></talend.job.framework>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <talend.job.type>Standard</talend.job.type>
