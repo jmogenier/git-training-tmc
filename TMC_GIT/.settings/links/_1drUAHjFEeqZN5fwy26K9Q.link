@@ -8,7 +8,7 @@
       "name" : "MySQLMoviesDB_Login"
     }, {
       "id" : "_ts1-sof1EeudWbemh4bIXw",
-      "name" : "MySQLMoviesDB_Port"
+      "name" : "connection_mySQL_port"
     }, {
       "id" : "_ts1-s4f1EeudWbemh4bIXw",
       "name" : "MySQLMoviesDB_Database"
@@ -17,7 +17,7 @@
       "name" : "MySQLMoviesDB_Password"
     }, {
       "id" : "_ts1-tYf1EeudWbemh4bIXw",
-      "name" : "MySQLMoviesDB_Server"
+      "name" : "connection_mySQL_host"
     }, {
       "id" : "_ts1-tof1EeudWbemh4bIXw",
       "name" : "MySQLMoviesDB_AdditionalParams"
