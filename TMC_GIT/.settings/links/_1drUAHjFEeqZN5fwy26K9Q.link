@@ -5,22 +5,22 @@
     "repoId" : "_tsjDwIf1EeudWbemh4bIXw",
     "parameterList" : [ {
       "id" : "_ts1-sYf1EeudWbemh4bIXw",
-      "name" : "MySQLMoviesDB_Login"
+      "name" : "connection_mySQL_Login"
     }, {
       "id" : "_ts1-sof1EeudWbemh4bIXw",
-      "name" : "connection_mySQL_port"
+      "name" : "connection_mySQL_Port"
     }, {
       "id" : "_ts1-s4f1EeudWbemh4bIXw",
-      "name" : "MySQLMoviesDB_Database"
+      "name" : "connection_mySQL_Database"
     }, {
       "id" : "_ts1-tIf1EeudWbemh4bIXw",
-      "name" : "MySQLMoviesDB_Password"
+      "name" : "connection_mySQL_Password"
     }, {
       "id" : "_ts1-tYf1EeudWbemh4bIXw",
-      "name" : "connection_mySQL_host"
+      "name" : "connection_mySQL_Server"
     }, {
       "id" : "_ts1-tof1EeudWbemh4bIXw",
-      "name" : "MySQLMoviesDB_AdditionalParams"
+      "name" : "connection_mySQL_AdditionalParams"
     } ]
   } ]
 }
