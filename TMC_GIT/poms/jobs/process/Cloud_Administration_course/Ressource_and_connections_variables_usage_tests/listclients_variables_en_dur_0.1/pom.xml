@@ -9,22 +9,22 @@
     <relativePath>../../../../../</relativePath>
   </parent>
   <groupId>org.example.tmc_git.job</groupId>
-  <artifactId>Copy_of_ListClients</artifactId>
-  <version>1.0.0</version>
-  <name>TMC_GIT Copy_of_ListClients-1.0.0 (1.0,Job Designs)</name>
+  <artifactId>ListClients_variables_en_dur</artifactId>
+  <version>0.1.0</version>
+  <name>TMC_GIT ListClients_variables_en_dur-0.1.0 (0.1,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
     <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
     <current.int-resources.dir>${basedir}/src/main/resources</current.int-resources.dir>
-    <talend.job.version>1.0</talend.job.version>
+    <talend.job.version>0.1</talend.job.version>
     <talend.project.name.lowercase>tmc_git</talend.project.name.lowercase>
     <talend.job.path>tmc_git</talend.job.path>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>TMC_GIT</talend.project.name>
     <talend.product.version>7.3.1.20201125_1449-patch</talend.product.version>
-    <talend.job.finalName>copy_of_listclients_1_0</talend.job.finalName>
+    <talend.job.finalName>listclients_variables_en_dur_0_1</talend.job.finalName>
     <talend.pigudf.groupid>org.example.tmc_git.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.tmc_git.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
@@ -33,7 +33,7 @@
     <talend.job.context>DEV</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>Copy_of_ListClients</talend.job.name>
+    <talend.job.name>ListClients_variables_en_dur</talend.job.name>
     <talend.job.id>_5kGR0If7EeudWbemh4bIXw</talend.job.id>
     <talend.project.id>0</talend.project.id>
     <talend.job.folder>cloud_administration_course/ressource_and_connections_variables_usage_tests/</talend.job.folder>
