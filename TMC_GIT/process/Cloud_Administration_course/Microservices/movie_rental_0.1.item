@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" internalId="_u_sGoIf1EeudWbemh4bIXw" name="MySQLMoviesDB_Login" prompt="MySQLMoviesDB_Login?" promptNeeded="false" repositoryContextId="_tsjDwIf1EeudWbemh4bIXw" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_u_sGoYf1EeudWbemh4bIXw" name="MySQLMoviesDB_Port" prompt="MySQLMoviesDB_Port?" promptNeeded="false" repositoryContextId="_tsjDwIf1EeudWbemh4bIXw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_u_sGoof1EeudWbemh4bIXw" name="MySQLMoviesDB_Database" prompt="MySQLMoviesDB_Database?" promptNeeded="false" repositoryContextId="_tsjDwIf1EeudWbemh4bIXw" type="id_String" value="movies"/>
+    <contextParameter comment="" internalId="_u_sGo4f1EeudWbemh4bIXw" name="MySQLMoviesDB_Password" prompt="MySQLMoviesDB_Password?" promptNeeded="false" repositoryContextId="_tsjDwIf1EeudWbemh4bIXw" type="id_Password" value="enc:system.encryption.key.v1:biX46MMcv4rNGYlpO7LQj4cdVONwhel1mSh354/Sv2U="/>
+    <contextParameter comment="" internalId="_u_sGpIf1EeudWbemh4bIXw" name="MySQLMoviesDB_Server" prompt="MySQLMoviesDB_Server?" promptNeeded="false" repositoryContextId="_tsjDwIf1EeudWbemh4bIXw" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_u_sGpYf1EeudWbemh4bIXw" name="MySQLMoviesDB_AdditionalParams" prompt="MySQLMoviesDB_AdditionalParams?" promptNeeded="false" repositoryContextId="_tsjDwIf1EeudWbemh4bIXw" type="id_String" value="noDatetimeStringSync=true"/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -43,7 +50,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:if9js3fTbhaywpQYdVWnTcJ30l/2yXMIHDvjNZ3J"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:r+fzrozcrXaW2Yuipr+GWgcoZ1Aw2Zj9GH30XYkA"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -78,7 +85,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:OhtdzSsg51XPrymeEXshZ09vC3SeRoXlPnlAKqIy"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ufD087W5+OhzLT/qf+CeHv7kIdpbElGgdYHV4+Q6"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -189,12 +196,12 @@
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;movies&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQLMoviesDB_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQLMoviesDB_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLMoviesDB_Database"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:+Zq8Fkjta7RpoSydfzMIxvplzMT0LL2DzvjRThIJOKfSWw=="/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQLMoviesDB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Hs38K8ct1kQ/P4xFNcxf65ndD5Nyzw7KwyVwf4LrTtpdBLwt/jwGrcAtQdARy7ozaUyku7ur5MFGTw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;movielist&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -205,7 +212,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLMoviesDB_AdditionalParams"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
@@ -313,11 +320,11 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;movies&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:JlxvnMHv0edARALhhcz8U0qGhBvWiN5aliEhKjvPhIhMpA=="/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQLMoviesDB_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQLMoviesDB_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLMoviesDB_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQLMoviesDB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zl3tHe4NKHR1RsVYX9ntKSPLJPRyhCRxuYrVzAlCBNqhxomfsPtM27TBhJTmdKxTaDLHzAxMNQEmVg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;movielist&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE"/>
@@ -326,7 +333,7 @@
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLMoviesDB_AdditionalParams"/>
     <elementParameter field="CHECK" name="EXTENDINSERT" show="false" value="true"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="(Not compatible with reject links)"/>
     <elementParameter field="TEXT" name="NB_ROWS_PER_INSERT" show="false" value="100"/>
@@ -427,11 +434,11 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;movies&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZrSw+bflUzdZ2th7UVi/PUHKzxbfRABFXW9ysfzK8chBqw=="/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQLMoviesDB_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQLMoviesDB_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLMoviesDB_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQLMoviesDB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3fciWh3/+9PPZYi14AxXOktZYiazyEVfRiLqkOCXeER2SbmJ85i/ToVaKvnENuZJQIGp7stLf2/qhg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;movielist&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -440,7 +447,7 @@
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLMoviesDB_AdditionalParams"/>
     <elementParameter field="CHECK" name="EXTENDINSERT" value="true"/>
     <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
     <elementParameter field="TEXT" name="NB_ROWS_PER_INSERT" value="100"/>
@@ -566,13 +573,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_066a396a-2707-4fd3-a0cb-98df763619c5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mDcpA02y+sTfsUhaEB02/L5YOvZvEnWJ62vJGzIHXKymU7EaygAWSzlHPNoH0l/HfM0o1svvGPVM
-2NMEHNqlBQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7cd72ba2-43f1-438f-a2cb-992f76078c63"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ACFDhHqoM+vidlWVR7WbvoDI/WPQLxQQY5STWPtfWrD0f32/XtunKXN/eH08chbVTqFgyD6VgA4f
-p+g2YLD8qA==</DigestValue></Reference></SignedInfo><SignatureValue>cTVz5YVufvu4ne9KQd8+9fcosGSHd1qNA3vP2cFzTQdoaWsAH9j+cX+/A2cs9GTcT7RAkCAgKZDz
-eDi75sU1nzl0lqGJ+e+R9kzgU4TyRnEZffdzqkWZn5oRZ1OBVhi2Dz0zA2k1oau/JQLUb3enIRNm
-nueUsdPl99K07iGRFSES3F4gjTHzRm1WnLA998VmQQDdb2zE8HJ131LlVe4SGRtYbEg+RTI7DkBG
-xkta+4C3kvJee+iupkWb9j3AaQhkBBrxd0rOMQow5irFGd3M9zRPQQDZmme0c8dHjmC5J0zEURgE
-Pyc2quiioIlYqqy5krF7XQFPg/VmAxcq5ZZ5Ag==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4bb42f17-0ef2-47ea-887f-7f3edf20148c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EKpkqbkpoSWVCL3+ZQKpRXxZWE19sXwsG6W//okKblRxT00puKUuTMkByFQRnk5wEIdGvt/EEe2K
+DjM3+rhppQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3b74b1c3-2fc5-4965-aa65-323e04aff501"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>fMZf3BqU4Gk4e4AhaVED91wpVv9WtukZmxZZhzjNkvth4/UoijkaxpGvJo5fOKxDR2Uz9XAyXGDt
+5doAUZn76g==</DigestValue></Reference></SignedInfo><SignatureValue>PXJdv2yKyeKxY/+0TYQ1sowIX58/i87oqmDWYk0ROkyYmVpxf4sg8P0RYL3/b2VsBS0bfT5BH9lw
+xWXwvKt5ooN8AjVyo7Wc6wBCCSrAreRxXJkHJhf9zSESzoJCVLdk467N1Tn5RPkQj+6By/VydaNg
+BHBCAbCuD2PqxjggwZ0RVS4qnBd63hT6VUa0/MB1/1Ng01wT8rz9V8d7LvLUKzHBPbWZOqb9gHzi
+IVu0cwOI5bZWqwhQ04lU5XXzs7CP0BdDEW/tOH292bCWTmIrDy+GPhY+5tuOreM5xxlHEcwscK75
+j90oNu/IrxNDO5iV8BylVmvGAO9q6QKQINXfxQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -594,4 +601,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7cd72ba2-43f1-438f-a2cb-992f76078c63" Target="#_066a396a-2707-4fd3-a0cb-98df763619c5"><Timestamp>2021-03-18 14:19:48</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3b74b1c3-2fc5-4965-aa65-323e04aff501" Target="#_4bb42f17-0ef2-47ea-887f-7f3edf20148c"><Timestamp>2021-03-18 14:25:05</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
