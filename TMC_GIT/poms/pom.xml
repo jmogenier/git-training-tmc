@@ -27,6 +27,7 @@
     <module>jobs/process/Cloud_Administration_course/TMC_API/secondtask_0.1</module>
     <module>jobs/process/Cloud_Administration_course/TMC_logs_and_metrics/generatelogs_0.1</module>
     <module>jobs/process/Cloud_Administration_course/TMC_logs_and_metrics/generatelogs_1.0</module>
+    <module>jobs/process/Cloud_Administration_course/TMC_logs_and_metrics/generatelogs_1.1</module>
     <module>jobs/process/Cloud_Administration_course/TMC_logs_and_metrics/getomc_0.1</module>
     <module>jobs/process/Cloud_Administration_course/Tests_on_remote_engine/remoteengines_video_viewers_watch_0.1</module>
     <module>jobs/process/Cloud_Administration_course/filtered_logs_customers_per_movie_0.1</module>
