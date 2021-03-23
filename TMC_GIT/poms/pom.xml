@@ -39,6 +39,7 @@
     <module>jobs/process/Cloud_Essentials_Course/TDS/deduplicatecustomers_0.1</module>
     <module>jobs/process/Cloud_Essentials_Course/TDS/deletetasksforcampaign_0.1</module>
     <module>jobs/process/Others_tests/TDP_Hybrid/executedatapreparationonhybridplatform_0.1</module>
+    <module>jobs/process/Others_tests/TDP_Hybrid/executedatapreparationonhybridplatform_1.0</module>
     <module>jobs/process/jnm_0.1</module>
     <module>jobs/routes/consumefile_0.1</module>
   </modules>
