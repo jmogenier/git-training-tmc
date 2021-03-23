@@ -35,6 +35,7 @@
     <module>jobs/process/Cloud_Administration_course/Tests_on_remote_engine/remoteengines_video_viewers_watch_0.1</module>
     <module>jobs/process/Cloud_Administration_course/filtered_logs_customers_per_movie_0.1</module>
     <module>jobs/process/Cloud_Administration_course/video_viewers_watch_results_log_filter_0.1</module>
+    <module>jobs/process/Cloud_Essentials_Course/TDP/copy_of_executedatapreparation_0.1</module>
     <module>jobs/process/Cloud_Essentials_Course/TDP/executedatapreparation_0.1</module>
     <module>jobs/process/Cloud_Essentials_Course/TDS/deduplicatecustomers_0.1</module>
     <module>jobs/process/Cloud_Essentials_Course/TDS/deletetasksforcampaign_0.1</module>
