@@ -5,13 +5,13 @@
     "repoId" : "_liglwIu_EeuinsTSc3GzXw",
     "parameterList" : [ {
       "id" : "_kGvXY6uaEeib4IEv8tTS5g",
-      "name" : "connection_password_H"
+      "name" : "connection_TDPH_password"
     }, {
       "id" : "_kGvXYauaEeib4IEv8tTS5g",
-      "name" : "connection_username_H"
+      "name" : "connection_TDPH_username"
     }, {
       "id" : "_kGvXZKuaEeib4IEv8tTS5g",
-      "name" : "connection_URL_TDP_H"
+      "name" : "connection_TDPH_URL"
     } ]
   } ]
 }
